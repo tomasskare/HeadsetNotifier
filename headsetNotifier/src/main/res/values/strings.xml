@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Headset Notifier</string>
+    <string name="hs_mic_in">Headset with microphone plugged in</string>
+    <string name="hs_nomic_in">Headset without microphone plugged in</string>
+    <string name="pref_enable_title">Enable Headset Notifier</string>
+    <string name="pref_screen_title">Wake up display</string>
+    <string name="pref_screen_summary">Turn on display when headset is plugged in.</string>
+    <string name="pref_deftype_title">Default headset type</string>
+    <string name="pref_deftype_summary">Select if default headset has microphone or not, in case it cannot be detected.</string>
+    <string name="pref_boot_title">Autostart on boot</string>
+    <string name="pref_boot_summary">Start Headset Notifier automatically when booting.</string>
+
+</resources>

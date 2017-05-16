@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference android:title="@string/pref_enable_title" android:enabled="true" android:key="pref_enable" android:defaultValue="true"/>
+    <CheckBoxPreference android:title="@string/pref_screen_title" android:summary="@string/pref_screen_summary" android:key="pref_screen" android:enabled="true" android:defaultValue="true" android:dependency="pref_enable"/>
+    <CheckBoxPreference android:title="@string/pref_boot_title" android:enabled="true" android:dependency="pref_enable" android:defaultValue="true" android:key="pref_boot" android:summary="@string/pref_boot_summary"/><ListPreference android:entryValues="@array/pref_deftype_values" android:key="pref_deftype" android:entries="@array/pref_deftype_names" android:defaultValue="mic" android:summary="@string/pref_deftype_summary" android:title="@string/pref_deftype_title" android:dependency="pref_enable"/>
+    
+    
+
+</PreferenceScreen>

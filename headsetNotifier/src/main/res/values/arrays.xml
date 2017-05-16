@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_deftype_names">
+        <item >With microphone</item>
+        <item >Without microphone</item>
+    </string-array>
+    <string-array name="pref_deftype_values">
+        <item >mic</item>
+        <item >nomic</item>
+    </string-array>
+    
+</resources>
